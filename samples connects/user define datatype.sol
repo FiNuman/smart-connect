@@ -3,7 +3,7 @@ pragma solidity ^0.8.0;
 
 contract statusdatatype{
 
-
+ 
      enum setdataStatus{
          pending,
          shiped,
@@ -11,7 +11,8 @@ contract statusdatatype{
          rejected,
          calcel
      }
-  
+
+     //here setdataStatus is a new data type created by user
      setdataStatus status;
 
      function getstatus() public  view returns (setdataStatus){
